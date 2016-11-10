@@ -5,7 +5,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 
 export default () => (
-  <Grid fluid>
+  <Grid>
     <Head>
       <title>Crossfire Racing</title>
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
