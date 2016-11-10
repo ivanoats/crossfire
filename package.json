@@ -2,7 +2,6 @@
   "name": "bootstrap-next",
   "version": "0.0.1",
   "description": "Bootstrap and Next",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1",
