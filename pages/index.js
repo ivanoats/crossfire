@@ -3,6 +3,7 @@ import Head from 'next/head'
 import {Grid} from 'react-bootstrap'
 import Header from '../components/header'
 import Hero from '../components/hero'
+import Nav from '../components/nav'
 
 export default () => (
   <Grid>
@@ -14,7 +15,7 @@ export default () => (
         href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
       />
     </Head>
-    <Header />
+    <Nav />
     <Hero />
   </Grid>
 )
