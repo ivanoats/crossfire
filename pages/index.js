@@ -19,10 +19,9 @@ export default () => (
     <Hero />
     <Row>
       <Col>
-        <h1>A Catchy Headline</h1>
-        <p>Lanyard killick topgallant nipper parrel loot walk the plank gunwalls Pirate Round run a shot across the bow. Handsomely Sail ho boatswain Plate Fleet gangway wench rutters boom bounty measured fer yer chains. Driver dance the hempen jig rope's end man-of-war rigging grapple hempen halter hogshead bucko list.</p>
-        <p>Stern mizzenmast nipperkin holystone square-rigged warp wherry broadside parley gunwalls. Stern Nelsons folly poop deck nipperkin coxswain scallywag keelhaul hearties swing the lead galleon. Coxswain topmast carouser Sink me spike line holystone crimp code of conduct snow.</p>
-        <p>Swing the lead warp stern yo-ho-ho Nelsons folly fathom topsail gally splice the main brace ahoy. Bounty Nelsons folly six pounders gangway hardtack ho Jack Tar gally poop deck clap of thunder. Case shot aye port pinnace long clothes landlubber or just lubber avast Pirate Round stern marooned.</p>
+        <h1>Crossfire Racing</h1>
+        <p>Crossfire Racing is a Corinthian yacht racing program focused on competing at the highest levels in the sport while maintaining a commitment to sportsmanship and community development.</p>
+        <p>Crossfire is Reichel-Pugh designed and McConaghy built custom race boat from Seattle, sailing under the Sloop Tavern Yacht Club burgee.</p>
       </Col>
     </Row>
   </Grid>
