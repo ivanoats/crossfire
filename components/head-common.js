@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-export default (props) => (
+const HeadCommon = (props) => (
   <Head>
     <title>{`Crossfire Racing - ${props.title}`}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -11,3 +11,9 @@ export default (props) => (
     />
   </Head>
 )
+
+HeadCommon.propTypes = {
+  title: React.PropTypes.string
+}
+
+export default HeadCommon
