@@ -1,15 +1,15 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap'
-import Nav from '../components/nav'
+import CFNav from '../components/nav'
 import HeadCommon from '../components/head-common'
 // import CFFooter from '../components/footer'
 
 export default () => (
   <Grid>
     <HeadCommon title='The Boat' />
-    <Nav />
+    <CFNav />
     <Row>
-      <Col>
+      <Col xs={12}>
         <h1>The Boat</h1>
         <p>The design brief for Crossfire (ex Rima2) called for a boat that was capable of competing against the TP52's inshore buoy racing, yet strong enough to handle the most grueling offshore events.  features a high stability keel and bulb; over 50% ballast/displacement ratio. The high modulus carbon rig and composite C6 rigging adds greatly to the stability of this design.  Crossfire is a powerful yacht capable of strong upwind performance in the 9+ knot range and even more exciting downwind rides at well over 20 knots.</p>
         <p>Crossfire was built using Pre-Preg carbon fiber with Nomex core and high-density PVC foam core in the slamming areas. The construction of this yacht was focused around extensive offshore sailing; durability was of paramount concern.</p>

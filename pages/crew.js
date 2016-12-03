@@ -1,15 +1,15 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap'
-import Nav from '../components/nav'
+import CFNav from '../components/nav'
 import HeadCommon from '../components/head-common'
 // import CFFooter from '../components/footer'
 
 export default () => (
   <Grid>
-    <HeadCommon title="Crew"/>
-    <Nav />
+    <HeadCommon title='Crew' />
+    <CFNav />
     <Row>
-      <Col>
+      <Col xs={12}>
         <h1>The Crew</h1>
         <p>The Crossfire Racing crew is a dedicated team of experienced sailors
         based on the Northwest.  Our core lineup includes: </p>
