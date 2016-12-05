@@ -9,7 +9,7 @@ export default () => (
     <HeadCommon title='Schedule' />
     <CFNav />
     <Row>
-      <Col xs={12}>
+      <Col sm={6}>
         <h1>Schedule</h1>
         <p>
           Crossfire racing has an extensive schedule of inshore and offshore
@@ -17,6 +17,9 @@ export default () => (
         </p>
         <p>Our current schedule for 2017: </p>
         <ul>          <li>TTPYC Duwamish Head</li>          <li>CYC Blakely Rock</li>          <li>CYC Scatchet Head</li>          <li>CYC Three Tree Point</li>          <li>STYC Blakely Rock Benefit</li>          <li>SYC Protection Island</li>          <li>SYC Vashon Island</li>          <li>RVYS Swiftsure Classic</li>          <li>SYC Blake Island</li>          <li>Leukemia Cup (tentative)</li>          <li>TYC Transpac Race</li>          <li>CYCE Foulweather Bluff</li>          <li>SYC Grand Prix</li>          <li>OIYC Round the County</li>          <li>TYC Winter Vashon</li>        </ul>      </Col>
+      <Col sm={6}>
+        <img className='img-responsive' src='static/crossfire-swiftsure-1.jpg' alt='Crossfire at Swiftsure' />
+      </Col>
     </Row>
     <CFFooter />
   </Grid>

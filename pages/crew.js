@@ -9,7 +9,7 @@ export default () => (
     <HeadCommon title='Crew' />
     <CFNav />
     <Row>
-      <Col xs={12}>
+      <Col sm={6}>
         <h1>The Crew</h1>
         <p>The Crossfire Racing crew is a dedicated team of experienced sailors
         based on the Northwest.  Our core lineup includes: </p>
@@ -30,6 +30,9 @@ export default () => (
           <li>John Stanley – Main Trim</li>
           <li>Mike Stanley – Pit</li>
         </ul>
+      </Col>
+      <Col sm={6}>
+        <img className='img-responsive' src='static/crossfire-vm-2016-2.jpg' alt='Crossfire VM' />
       </Col>
     </Row>
     <CFFooter />
