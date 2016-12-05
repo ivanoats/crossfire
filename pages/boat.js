@@ -2,7 +2,7 @@ import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap'
 import CFNav from '../components/nav'
 import HeadCommon from '../components/head-common'
-// import CFFooter from '../components/footer'
+import CFFooter from '../components/footer'
 
 export default () => (
   <Grid>
@@ -50,5 +50,6 @@ export default () => (
         </div>
       </Col>
     </Row>
+    <CFFooter />
   </Grid>
 )

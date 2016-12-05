@@ -1,8 +1,10 @@
 import React from 'react'
-import {Footer} from 'react-bootstrap'
 
 export default () => (
-  <Footer>
-    <p>the footer </p>
-  </Footer>
+  <footer className='footer'>
+    <hr />
+    <div className='container'>
+      <span className='text-muted'>Copyright &copy; 2016 Crossfire racing.</span>
+    </div>
+  </footer>
 )

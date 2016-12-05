@@ -1,0 +1,43 @@
+.cf-navbar {
+  background-color: #fff;
+  border: 0;
+}
+
+.cf-navbar .container {
+  padding: 0;
+  margin: 0;
+}
+
+.cf-logo {
+  max-width: 400px;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .cf-logo {
+    max-width: 275px;
+  }
+
+  .cf-navbar .container {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 10px; /* Vertically center the text there */
+}

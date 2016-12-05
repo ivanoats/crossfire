@@ -3,7 +3,7 @@ import HeadCommon from '../components/head-common'
 import {Grid, Row, Col} from 'react-bootstrap'
 import Hero from '../components/hero'
 import CFNav from '../components/nav'
-// import CFFooter from '../components/footer'
+import CFFooter from '../components/footer'
 
 export default () => (
   <Grid>
@@ -17,5 +17,6 @@ export default () => (
         <p>Crossfire is Reichel-Pugh designed and McConaghy built custom race boat from Seattle, sailing under the Sloop Tavern Yacht Club burgee.</p>
       </Col>
     </Row>
+    <CFFooter />
   </Grid>
 )

@@ -9,6 +9,7 @@ const HeadCommon = (props) => (
       rel='stylesheet'
       href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
     />
+    <link rel='stylesheet' href='static/crossfire.css' />
   </Head>
 )
 
