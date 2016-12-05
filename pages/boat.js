@@ -49,7 +49,7 @@ export default () => (
             </table>
           </div>
         </div>
-        <img className='img-responsive diagram' src='static/crossfire-diagram.svg' alt='diagram' />
+        <img className='img-responsive diagram' src='static/crossfire-diagram.min.svg' alt='diagram' />
         <p>Next: <Link href='schedule'>our schedule</Link></p>
       </Col>
       <Col sm={6}>
