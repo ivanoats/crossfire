@@ -24,6 +24,11 @@
   }
 }
 
+h1, p, li {
+  font-family: 'Merriweather', serif;
+}
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

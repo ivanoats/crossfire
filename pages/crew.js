@@ -12,7 +12,8 @@ export default () => (
       <Col sm={6}>
         <h1>The Crew</h1>
         <p>The Crossfire Racing crew is a dedicated team of experienced sailors
-        based on the Northwest.  Our core lineup includes: </p>
+        based on the Northwest.</p>
+        <p>Our core lineup includes: </p>
         <ul>
           <li>Scott Anderson – Runners</li>
           <li>Bob Arney – Jib/Spin Trim</li>
