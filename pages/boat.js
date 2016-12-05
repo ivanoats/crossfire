@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {Grid, Row, Col} from 'react-bootstrap'
 import CFNav from '../components/nav'
 import HeadCommon from '../components/head-common'
@@ -49,6 +50,7 @@ export default () => (
           </div>
         </div>
         <img className='img-responsive diagram' src='static/crossfire-diagram.svg' alt='diagram' />
+        <p>Next: <Link href='schedule'>our schedule</Link></p>
       </Col>
       <Col sm={6}>
         <img className='img-responsive' src='static/crossfire-swiftsure-4.jpg' alt='crossfire' />

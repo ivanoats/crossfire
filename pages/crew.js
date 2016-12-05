@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {Grid, Row, Col} from 'react-bootstrap'
 import CFNav from '../components/nav'
 import HeadCommon from '../components/head-common'
@@ -31,6 +32,7 @@ export default () => (
           <li>John Stanley – Main Trim</li>
           <li>Mike Stanley – Pit</li>
         </ul>
+        <p>Next: <Link href='boat'>the boat</Link></p>
       </Col>
       <Col sm={6}>
         <img className='img-responsive' src='static/crossfire-vm-2016-2.jpg' alt='Crossfire VM' />
