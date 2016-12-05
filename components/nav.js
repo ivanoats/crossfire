@@ -5,17 +5,17 @@ import {Navbar, Nav, NavItem, Row, Col} from 'react-bootstrap'
 export default () => (
   <Row>
     <Col xs={12}>
-      <Navbar collapseOnSelect>
+      <Navbar style={{backgroundColor: '#fff', border: '0 #fff'}} collapseOnSelect>
         <Navbar.Header>
-          <Navbar.Brand>
+          <Navbar.Brand pullLeft>
             <Link href='/'>
-              <img className='img-responsive' src='../static/logo1000.png' alt='Crossfire logo' />
+              <img className='img-responsive' style={{maxWidth: '400px'}} src='../static/logo1000.png' alt='Crossfire logo' />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav pullRight style={{paddingRight: '15px'}}>
             <li role='presentation'><Link className='button' href='crew'>Crew</Link></li>
             <li role='presentation'><Link className='button' href='boat'>The Boat</Link></li>
             <NavItem eventKey={4} href='schedule'>Schedule</NavItem>
