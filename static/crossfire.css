@@ -1,3 +1,5 @@
+/* Logo and Navbar
+------------------------------------------------ */
 .cf-navbar {
   background-color: #fff;
   border: 0;
@@ -24,6 +26,9 @@
   }
 }
 
+/* Web Fonts
+------------------------------------------------ */
+
 h1, p, li {
   font-family: 'Merriweather', serif;
 }
@@ -45,4 +50,14 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 10px; /* Vertically center the text there */
+}
+
+/* photo border
+------------------------------------------------ */
+
+.img-frame {
+  background: #fff;
+  border-radius: 2px;
+  padding: 8px;
+  box-shadow: 1px 2px 1px #d1d1d1;
 }

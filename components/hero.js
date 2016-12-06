@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap'
 export default () => (
   <Row>
     <Col xs={12}>
-      <img className='img-responsive' src='../static/crossfire-swiftsure-3-cropped.min.jpg' />
+      <img className='img-frame img-responsive' src='../static/crossfire-swiftsure-3-cropped.min.jpg' />
     </Col>
   </Row>
 )
