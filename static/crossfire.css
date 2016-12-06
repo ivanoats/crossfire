@@ -26,6 +26,14 @@
   }
 }
 
+.container {
+  background-color: #fff;
+}
+
+body {
+  background: url(puget-sound-chart.min.jpg);
+}
+
 /* Web Fonts
 ------------------------------------------------ */
 
@@ -49,10 +57,11 @@ body {
 }
 .footer {
   position: absolute;
+  padding: 15px;
   bottom: 0;
   /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 10px; /* Vertically center the text there */
+  line-height: 20px; /* Vertically center the text there */
 }
 
 /* photo border
