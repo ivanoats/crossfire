@@ -33,6 +33,9 @@ h1, p, li {
   font-family: 'Merriweather', serif;
 }
 
+h1 {
+  text-shadow: 1px 1px 1px #ccc;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */

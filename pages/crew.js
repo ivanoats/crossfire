@@ -25,7 +25,6 @@ export default () => (
           <li>Rick Donohue – Grinder</li>
           <li>Bruce Dunn – Grinder</li>
           <li>Patrick Gibbs – Bow</li>
-          <li>Bruce Hedrick – Navigator</li>
           <li>Derek Murphy - Mast</li>
           <li>Rick Sassara – Grinder</li>
           <li>Mike Schaeffer – Tactician</li>

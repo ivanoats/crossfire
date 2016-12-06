@@ -12,8 +12,22 @@ export default () => (
     <Row>
       <Col sm={6}>
         <h1>The Boat</h1>
-        <p>The design brief for Crossfire (ex Rima2) called for a boat that was capable of competing against the TP52's inshore buoy racing, yet strong enough to handle the most grueling offshore events.  features a high stability keel and bulb; over 50% ballast/displacement ratio. The high modulus carbon rig and composite C6 rigging adds greatly to the stability of this design.  Crossfire is a powerful yacht capable of strong upwind performance in the 9+ knot range and even more exciting downwind rides at well over 20 knots.</p>
-        <p>Crossfire was built using Pre-Preg carbon fiber with Nomex core and high-density PVC foam core in the slamming areas. The construction of this yacht was focused around extensive offshore sailing; durability was of paramount concern.</p>
+        <p>
+          The design brief for Crossfire (ex Rima2) called for a boat that was
+          capable of competing against the TP52's inshore buoy racing, yet
+          strong enough to handle the most grueling offshore events.  Crossfire
+          features a high stability keel and bulb; and an over 50% ballast/displacement
+          ratio. The high modulus carbon rig and composite C6 rigging adds
+          greatly to the stability of this design.  Crossfire is a powerful
+          yacht capable of strong upwind performance in the 9+ knot range and
+          even more exciting downwind rides at well over 20 knots.
+        </p>
+        <p>
+          Crossfire was built using Pre-Preg carbon fiber with Nomex core and
+          high-density PVC foam core in the slamming areas. The construction of
+          this yacht was focused around extensive offshore sailing; durability
+          was of paramount concern.
+        </p>
         <div className='panel panel-default'>
           <div className='panel-heading'>Measurements:</div>
           <div className='panel-body'>
