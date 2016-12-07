@@ -12,7 +12,7 @@ export default () => (
     <CFNav />
     <Hero />
     <Row>
-      <Col xs={12}>
+      <Col xs={12} style={{height: '400px'}}>
         <h1>Crossfire Racing</h1>
         <p>Crossfire Racing is a Corinthian yacht racing program focused on competing at the highest levels in the sport while maintaining a commitment to sportsmanship and community development.</p>
         <p>Crossfire is Reichel-Pugh designed and McConaghy built custom race boat from Seattle, sailing under the Sloop Tavern Yacht Club burgee.</p>

@@ -9,7 +9,7 @@ export default () => (
     <HeadCommon title='Contact' />
     <CFNav />
     <Row>
-      <Col xs={12}>
+      <Col xs={12} style={{height: '600px'}}>
         <h1>Contact Us</h1>
         <p>Please drop us a line at <a href='mailto:crossfire55155@gmail.com'>crossfire55155@gmail.com</a>.</p>
         <p>Thanks!</p>

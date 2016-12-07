@@ -5,9 +5,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ivanoats/crossfire"
-    },
+  },
   "scripts": {
     "dev": "next",
+    "css": "cleancss -o static/crossfire.min.css static/crossfire.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "next build",
     "start": "next start"
@@ -19,6 +20,7 @@
     "react-bootstrap": "^0.30.7"
   },
   "devDependencies": {
+    "clean-css": "^3.4.21",
     "eslint-config-standard": "^6.2.1",
     "eslint-config-standard-react": "^4.2.0",
     "eslint-plugin-promise": "^3.4.0",
