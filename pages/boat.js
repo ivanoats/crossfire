@@ -32,34 +32,36 @@ export default () => (
           <div className='panel-heading'>Measurements:</div>
           <div className='panel-body'>
             <table className='table'>
-              <tr>
-                <td>LOA:</td>
-                <td>55ft 3in</td>
-              </tr>
-              <tr>
-                <td>LWL:</td>
-                <td>551ft 2in</td>
-              </tr>
-              <tr>
-                <td>Beam:</td>
-                <td>14ft 8in</td>
-              </tr>
-              <tr>
-                <td>Draft:</td>
-                <td>13 ft</td>
-              </tr>
-              <tr>
-                <td>Bridge Clearance:</td>
-                <td>90ft 5in</td>
-              </tr>
-              <tr>
-                <td>Ballast:</td>
-                <td>8050lb</td>
-              </tr>
-              <tr>
-                <td>Displacement:</td>
-                <td>20865lb</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>LOA:</td>
+                  <td>55ft 3in</td>
+                </tr>
+                <tr>
+                  <td>LWL:</td>
+                  <td>551ft 2in</td>
+                </tr>
+                <tr>
+                  <td>Beam:</td>
+                  <td>14ft 8in</td>
+                </tr>
+                <tr>
+                  <td>Draft:</td>
+                  <td>13 ft</td>
+                </tr>
+                <tr>
+                  <td>Bridge Clearance:</td>
+                  <td>90ft 5in</td>
+                </tr>
+                <tr>
+                  <td>Ballast:</td>
+                  <td>8050lb</td>
+                </tr>
+                <tr>
+                  <td>Displacement:</td>
+                  <td>20865lb</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

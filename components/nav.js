@@ -8,19 +8,21 @@ export default () => (
       <Navbar className='cf-navbar' collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link href='/'>
-              <img className='cf-logo' src='../static/logo1000.png' alt='Crossfire logo' />
+            <Link>
+              <a href='/'>
+                <img className='cf-logo' src='../static/logo1000.png' alt='Crossfire logo' />
+              </a>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight style={{paddingRight: '15px'}}>
-            <li role='presentation'><Link className='button' href='crew'>Crew</Link></li>
-            <li role='presentation'><Link className='button' href='boat'>The Boat</Link></li>
-            <li role='presentation'><Link className='button' href='schedule'>Schedule</Link></li>
-            <li role='presentation'><Link className='button' href='training'>Training</Link></li>
-            <li role='presentation'><Link className='button' href='contact'>Contact</Link></li>
+            <li role='presentation'><Link><a className='button' href='crew'>Crew</a></Link></li>
+            <li role='presentation'><Link><a className='button' href='boat'>The Boat</a></Link></li>
+            <li role='presentation'><Link><a className='button' href='schedule'>Schedule</a></Link></li>
+            <li role='presentation'><Link><a className='button' href='training'>Training</a></Link></li>
+            <li role='presentation'><Link><a className='button' href='contact'>Contact</a></Link></li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

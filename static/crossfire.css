@@ -30,10 +30,6 @@
   background-color: #fff;
 }
 
-body {
-  background: url(puget-sound-chart.min.jpg);
-}
-
 /* Web Fonts
 ------------------------------------------------ */
 
@@ -43,6 +39,10 @@ h1, p, li {
 
 h1 {
   text-shadow: 1px 1px 1px #ccc;
+}
+
+b, strong {
+  font-weight: bolder;
 }
 
 /* Sticky footer styles
